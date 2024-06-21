@@ -58,14 +58,15 @@ namespace Directum
 
             Reference reference = new Reference();
             reference.Uri = "";
-            reference.DigestMethod = CPSignedXml.XmlDsigGost3411Url;
+            reference.DigestMethod = "urn:ietf:params:xml:ns:cpxmlsec:algorithms:gostr34112012-256";
+            // reference.DigestMethod = CPSignedXml.XmlDsigGost3411Url;
 
 
             XmlDsigEnvelopedSignatureTransform env = new XmlDsigEnvelopedSignatureTransform();
             reference.AddTransform(env);
 
-            XmlDsigSmevTransform smev = new XmlDsigSmevTransform(); 
-            reference.AddTransform(smev);
+            // XmlDsigSmevTransform smev = new XmlDsigSmevTransform(); 
+            // reference.AddTransform(smev);
 
             XmlDsigC14NTransform c14 = new XmlDsigC14NTransform();
             reference.AddTransform(c14);

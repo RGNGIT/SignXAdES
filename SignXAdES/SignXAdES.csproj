@@ -36,6 +36,22 @@
     <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="CryptoPro.Sharpei.Base, Version=1.4.0.10, Culture=neutral, PublicKeyToken=473b8c5086e795f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Crypto Pro\.NET SDK\Assemblies\4.0\CryptoPro.Sharpei.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoPro.Sharpei.ServiceModel, Version=1.4.0.1, Culture=neutral, PublicKeyToken=473b8c5086e795f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Crypto Pro\.NET SDK\Assemblies\4.0\CryptoPro.Sharpei.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoPro.Sharpei.ServiceModel45, Version=1.4.0.1, Culture=neutral, PublicKeyToken=473b8c5086e795f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Crypto Pro\.NET SDK\Assemblies\4.0\CryptoPro.Sharpei.ServiceModel45.dll</HintPath>
+    </Reference>
+    <Reference Include="CryptoPro.Sharpei.Xml, Version=1.4.0.10, Culture=neutral, PublicKeyToken=473b8c5086e795f5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Crypto Pro\.NET SDK\Assemblies\4.0\CryptoPro.Sharpei.Xml.dll</HintPath>
+    </Reference>
     <Reference Include="FirmaXadesNet, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FirmaXadesNet.2.0.1.1\lib\net45\FirmaXadesNet.dll</HintPath>
     </Reference>
